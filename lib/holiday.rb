@@ -170,6 +170,7 @@ def all_holidays_with_bbq(holiday_hash)
             special_day
         end
       end
+    end
 end
 
 

@@ -66,11 +66,11 @@ def add_supply_to_memorial_day(holiday_hash, supply)
           :memorial_day => ["BBQ"]
         }}
         
-        
+        new_supply = ""
         holiday_hash.each do |seasons, items_holiday_hash|
       if seasons == :spring
         items_holiday_hash.each do |special_day, special_item|
-          special_item << "Balloons"
+          special_item << new_supply
       end
     end
   end

@@ -112,7 +112,8 @@ def all_winter_holiday_supplies(holiday_hash)
         }}
       array1 = holiday_hash[:winter][:christmas]
       array2 = holiday_hash[:winter][:new_years]
-      binding.pry
+      array2.join
+      array1 << array2
 
 end
 

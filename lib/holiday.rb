@@ -40,7 +40,7 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
     holiday_hash.each do |seasons, items_holiday_hash|
       if seasons == :winter
         items_holiday_hash.each do |special_day, special_item|
-          special_item << "Balloons"
+          special_item << supply
       end
     end
   end
@@ -64,11 +64,11 @@ def add_supply_to_memorial_day(holiday_hash, supply)
           :memorial_day => ["BBQ"]
         }}
         
-        new_supply = x
+        
         holiday_hash.each do |seasons, items_holiday_hash|
       if seasons == :spring
         items_holiday_hash.each do |special_day, special_item|
-          special_item << x
+          special_item << supply
       end
     end
   end

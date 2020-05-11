@@ -89,6 +89,8 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
         :spring => {
           :memorial_day => ["BBQ"]
         }}
+        
+        
   # remember to return the updated hash
 
 end

@@ -137,7 +137,10 @@ def all_supplies_in_holidays(holiday_hash)
         },
         :spring => {
           :memorial_day => ["BBQ"]
-  holiday_hash.ea
+   
+        holiday_hash.each do |seasons, items_holiday_hash|
+          puts "#{seasons.capitalize}:"
+          items_holiday_hash.collect do 
 
 end
 

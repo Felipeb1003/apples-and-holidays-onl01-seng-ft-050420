@@ -15,18 +15,7 @@ def second_supply_for_fourth_of_july(holiday_hash)
     :spring => {
       :memorial_day => ["BBQ"]
     }
-  }
-  # return the second element in the 4th of July array
-   #holiday_supplies[:summer][:fourth_of_july][1]
-   second_item = ""
-   holiday_supplies.each do |season, season_details|
-     if season == :summer
-       season_details.each do |special_day, special_item|
-         second_item=special_item[1]
-        second_item
-       end
-     end
-   end
+
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
